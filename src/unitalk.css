@@ -169,7 +169,7 @@ ul a {
 
 .grupo {
     margin: 30px;
-    width: 205px;
+    width: 240px;
     height: 60px;
     background: #450057;
     border-color: #450057;
@@ -179,11 +179,21 @@ ul a {
     font-weight: 400;
     font-style: normal;
     left: 60px;
-    font-size: 20px;
     position: relative;
     top: -160px;
+    display: inline-grid;
 }
 
+.finalink{
+    text-decoration: none;
+    color: rgb(228, 225, 218);
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    align-content: center;
+    text-align: center;
+}
 /*PAGINA 3 - LISTA DE SITES QUE PODEM TE AJUDAR*/
 #sites {
     height: 90vh;
