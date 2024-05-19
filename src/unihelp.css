@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     box-sizing: border-box;
@@ -211,12 +210,12 @@ ul li {
     height: 100vh;
 }
 
-.ulife3{
+.ulife3 {
     width: 99%;
     position: relative;
 }
 
-.text6{
+.text6 {
     color: #450057;
     font-family: "Passion One", sans-serif;
     font-weight: 400;
@@ -228,7 +227,7 @@ ul li {
     top: -540px;
 }
 
-.confirma{
+.confirma {
     width: 25%;
     position: relative;
     left: 120px;
@@ -236,15 +235,533 @@ ul li {
     top: 40px;
 }
 
-.cone1{
+.cone1 {
     position: relative;
     left: 835px;
     width: 23%;
 }
 
-.cone2{
+.cone2 {
     position: relative;
     left: 685px;
     width: 22%;
     top: 40px;
+}
+
+@media (max-width: 1024px) {
+    * {
+        margin: 0;
+        box-sizing: border-box;
+        padding: 0;
+    }
+    
+    body {
+        width: auto;
+    }    
+
+    /*NAV*/
+
+    nav {
+        width: 100%;
+        height: 5rem;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 0 10%;
+        align-items: center;
+        background: rgb(217, 217, 217, 10%);
+        backdrop-filter: brightness(0.5);
+        z-index: 1;
+        text-decoration: none;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    nav a {
+        color: rgb(228, 225, 218);
+        font-family: "Passion One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        text-decoration: none;
+    }
+
+    nav a:hover {
+        color: rgb(228, 225, 218);
+    }
+
+    ul {
+        display: contents;
+    }
+
+    ul a {
+        color: rgb(228, 225, 218);
+        margin-left: 1rem;
+    }
+
+
+    /*PAGINA 1 - UNIHELP!*/
+
+    #ajuda {
+        height: 100vh;
+        background: #FB6C14;
+        width: 100%;
+    }
+
+    .ajudar {
+        width: 95%;
+        align-content: center;
+        text-align: center;
+        position: relative;
+        color: rgb(228, 225, 218);
+        top: 90px;
+        height: 75%;
+        font-family: "Passion One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+    }
+
+    .unihelp {
+        width: 90%;
+        height: 90%;
+    }
+
+    .validar {
+        margin: 4px;
+        width: 400px;
+        height: 50px;
+        background: #450057;
+        border-color: #450057;
+        border-radius: 8px;
+        color: rgb(228, 225, 218);
+        font-family: "Passion One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        left: 210px;
+        font-size: 20px;
+        position: relative;
+        display: inline-grid;
+        align-content: center;
+        text-align: center;
+        text-decoration: none;
+        top: 35px;
+    }
+
+    /*PAGINA 2 - AQUI TE MOSTRAREMOS O PASSO A PASSO DE COMO VALIDAR SUAS HORAS EXTRAS NO ULIFE*/
+
+    #danca {
+        margin: auto;
+        height: 90vh;
+        width: 100%;
+    }
+
+    .laranjinha {
+        z-index: -1;
+        top: -35px;
+        position: relative;
+        /*height: 938px; */
+        width: 100%;
+        height: 90vh;
+    }
+
+    .dance {
+        top: -470px;
+        position: relative;
+        width: 75vh;
+        height: 80vh;
+    }
+
+    .horas {
+        align-content: flex-end;
+        text-align: end;
+        font-size: 60px;
+        top: -911px;
+        position: relative;
+        height: 30%;
+        max-width: 48%;
+        min-width: 20%;
+        left: 415px;
+        color: #450057;
+        font-family: "Passion One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    /*PAGINA 3 - PASSO A PASSO */
+    #lista {
+        height: 95vh;
+        text-decoration: none;
+    }
+
+    .numero {
+        text-decoration: none;
+    }
+
+    ul {
+        display: contents;
+        text-decoration: none;
+        list-style-type: none;
+        margin: 0 2px 0 0;
+    }
+
+    ul li {
+        color: #450057;
+        margin-left: 1rem;
+        font-family: "Passion One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 50px;
+        text-align: end;
+        left: -85px;
+        position: relative;
+    }
+
+    .retangulo {
+        top: -490px;
+        position: relative;
+        left: 765px;
+        height: 185vh;
+        width: 40px;
+    }
+
+    .horizonte {
+        width: 807px;
+        height: 40px;
+    }
+
+    /*PAGINA 4 -*/
+
+    #fotos {
+        height: 90vh;
+        text-decoration: none;
+    }
+
+    .ulife2 {
+        width: 27%;
+        position: relative;
+        left: 150px;
+        top: 70px;
+    }
+
+    .ulife1 {
+        width: 37%;
+        position: relative;
+        left: 45px;
+        top: 70px;
+    }
+
+    /*PAGINA 5 -*/
+
+    #fim {
+        height: 90vh;
+        text-decoration: none;
+    }
+
+    .ulife3 {
+        width: 99%;
+        position: relative;
+    }
+
+    .text6 {
+        color: #450057;
+        font-family: "Passion One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 45px;
+        left: 9px;
+        position: relative;
+        width: 62%;
+        top: -295px;
+    }
+
+    .confirma {
+        width: 30%;
+        position: relative;
+        left: -340px;
+        /* left: -601px; */
+        top: 80px;
+    }
+
+    .cone1 {
+        position: relative;
+        left: 570px;
+        width: 23%;
+        top: 10px;
+    }
+
+    .cone2 {
+        position: relative;
+        left: 455px;
+        width: 22%;
+        top: 40px;
+    }
+}
+
+@media (max-width: 768px){
+    * {
+        margin: 0;
+        box-sizing: border-box;
+        padding: 0;
+    }
+    
+    body {
+        width: auto;
+    }    
+
+    nav {
+        width: 100%;
+        height: 5rem;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 0 10%;
+        align-items: center;
+        background: rgb(217, 217, 217, 10%);
+        backdrop-filter: brightness(0.5);
+        z-index: 1;
+        text-decoration: none;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    nav a {
+        color: rgb(228, 225, 218);
+        font-family: "Passion One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        text-decoration: none;
+    }
+
+    nav a:hover {
+        color: rgb(228, 225, 218);
+    }
+
+    ul {
+        display: contents;
+    }
+
+    ul a {
+        color: rgb(228, 225, 218);
+        margin-left: 1rem;
+    }
+
+
+    /*PAGINA 1 - UNIHELP!*/
+
+    #ajuda {
+        height: 70vh;
+        background: #FB6C14;
+        width: 72vh;
+    }
+
+    .ajudar {
+        width: 100%;
+        align-content: center;
+        text-align: center;
+        position: relative;
+        color: rgb(228, 225, 218);
+        top: 90px;
+        height: 80%;
+        font-family: "Passion One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+    }
+
+    .unihelp {
+        width: 90%;
+        height: 90%;
+    }
+
+    .validar {
+        top: 15px;
+        margin: 4px;
+        height: 55px;
+        background: #450057;
+        border-color: #450057;
+        border-radius: 8px;
+        color: rgb(228, 225, 218);
+        font-family: "Passion One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        position: relative;
+        display: inline-grid;
+        align-content: center;
+        text-align: center;
+        text-decoration: none;
+        width: 250px;
+        font-size: 16px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .horas {
+        font-size: 50px;
+        top: -900px;
+    }
+
+    /*PAGINA 2 - AQUI TE MOSTRAREMOS O PASSO A PASSO DE COMO VALIDAR SUAS HORAS EXTRAS NO ULIFE*/
+
+    #danca {
+        height: 60vh;
+        width: 72vh;
+    }
+
+    .laranjinha {
+        z-index: -1;
+        top: -30px;
+        position: relative;
+        /* height: 938px; */
+        width: 72vh;
+        height: 60vh;
+    }
+
+    .dance {
+        top: -484px;
+        position: relative;
+        width: 35vh;
+        height: 50vh;
+    }
+
+    .horas {
+        align-content: flex-end;
+        text-align: end;
+        font-size: 45px;
+        top: -880px;
+        position: relative;
+        height: 30%;
+        max-width: 48%;
+        min-width: 20%;
+        left: 450px;
+        color: #450057;
+        font-family: "Passion One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    /*PAGINA 3 - PASSO A PASSO */
+    #lista {
+        margin: auto;
+        height: 50vh;
+        text-decoration: none;
+        width: 72vh;
+    }
+
+    .numero {
+        text-decoration: none;
+        width: 64vh;
+    }
+
+    ul {
+        display: contents;
+        text-decoration: none;
+        list-style-type: none;
+        margin: 0 2px 0 0;
+    }
+
+    ul li {
+        color: #450057;
+        margin-left: 1rem;
+        font-family: "Passion One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 40px;
+        text-align: end;
+        left: 0px;
+        position: relative;
+    }
+
+    .retangulo {
+        top: -440px;
+        position: relative;
+        left: 600px;
+        height: 99vh;
+        width: 30px;
+    }
+
+    .horizonte {
+        width: 69vh;
+        height: 36px;
+    }
+
+    /*PAGINA 4 -*/
+
+    #fotos {
+        margin: auto;
+        height: 45vh;
+        text-decoration: none;
+        width: 72vh;
+    }
+
+    .ulife2 {
+        width: 30%;
+        position: relative;
+        left: 100px;
+        top: 45px;
+    }
+
+    .ulife1 {
+        width: 35%;
+        position: relative;
+        left: 30px;
+        top: 50px;
+    }
+
+    /*PAGINA 5 -*/
+
+    #fim {
+        margin: auto;
+        height: 60vh;
+        width: 72vh;
+    }
+
+    .ulife3 {
+        width: 98%;
+        left: 0px;
+    }
+
+    .text6 {
+        color: #450057;
+        font-family: "Passion One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 45px;
+        left: 9px;
+        position: relative;
+        width: 62%;
+        top: -320px;
+    }
+
+    .confirma {
+        width: 40%;
+        position: relative;
+        left: 40px;
+        top: 135px;
+    }
+
+    .cone1 {
+        position: relative;
+        left: 355px;
+        width: 30%;
+        top: 130px;
+    }
+
+    .cone2 {
+        position: relative;
+        left: 240px;
+        width: 30%;
+        top: 180px;
+    }
 }
