@@ -11,7 +11,7 @@ body {
 /*NAV*/
 
 nav {
-    width: 100%;
+    width: 100vh;
     height: 5rem;
     position: fixed;
     top: 0;
@@ -62,7 +62,7 @@ ul a {
 }
 
 .ajudar {
-    width: 100%;
+    width: 100vh;
     align-content: center;
     text-align: center;
     position: relative;
@@ -111,7 +111,7 @@ ul a {
     top: -35px;
     position: relative;
     /*height: 938px; */
-    width: 100%;
+    width: 100vh;
     height: 90vh;
 }
 
@@ -257,7 +257,7 @@ ul li {
     /*NAV*/
 
     nav {
-        width: 100%;
+        width: 100vh;
         height: 5rem;
         position: fixed;
         top: 0;
@@ -360,7 +360,7 @@ ul li {
         top: -35px;
         position: relative;
         /*height: 938px; */
-        width: 100%;
+        width: 100vh;
         height: 90vh;
     }
 
@@ -509,7 +509,7 @@ ul li {
     }     */
 
     nav {
-        width: 100%;
+        width: 100vh;
         height: 5rem;
         position: fixed;
         top: 0;
