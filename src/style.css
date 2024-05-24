@@ -29,7 +29,7 @@ body {
 /*PAGINA 1 - INICIO*/
 
 nav {
-    width: 100vh;
+    width: 100%z;
     height: 5rem;
     position: fixed;
     top: 0;
@@ -84,7 +84,7 @@ ul a {
 }
 
 .inicial {
-    width: 100vh;
+    width: 100%;
     align-content: center;
     text-align: center;
     position: relative;
@@ -160,7 +160,7 @@ ul a {
     top: -88px;
     position: relative;
     /*height: 938px; */
-    width: 100vh;
+    width: 100%;
     height: 90vh;
 }
 
@@ -292,7 +292,7 @@ ul a {
 }
 
 .chat {
-    width: 100vh;
+    width: 100%;
     align-content: center;
     text-align: center;
     position: relative;
