@@ -57,7 +57,6 @@ ul a {
 /*PAGINA 1 - UNIHELP!*/
 
 #ajuda {
-    margin: auto;
     height: 100vh;
     background: #FB6C14;
 }
@@ -104,7 +103,6 @@ ul a {
 /*PAGINA 2 - AQUI TE MOSTRAREMOS O PASSO A PASSO DE COMO VALIDAR SUAS HORAS EXTRAS NO ULIFE*/
 
 #danca {
-    margin: auto;
     height: 100vh;
 }
 
@@ -142,7 +140,6 @@ ul a {
 
 /*PAGINA 3 - PASSO A PASSO */
 #lista {
-    margin: auto;
     height: 95vh;
     text-decoration: none;
 }
@@ -186,7 +183,6 @@ ul li {
 /*PAGINA 4 -*/
 
 #fotos {
-    margin: auto;
     height: 95vh;
     text-decoration: none;
 }
@@ -206,7 +202,6 @@ ul li {
 /*PAGINA 5 -*/
 
 #fim {
-    margin: auto;
     height: 100vh;
 }
 
@@ -310,7 +305,7 @@ ul li {
     #ajuda {
         height: 100vh;
         background: #FB6C14;
-        width: 100%;
+        width: 100vh;
     }
 
     .ajudar {
@@ -356,9 +351,8 @@ ul li {
     /*PAGINA 2 - AQUI TE MOSTRAREMOS O PASSO A PASSO DE COMO VALIDAR SUAS HORAS EXTRAS NO ULIFE*/
 
     #danca {
-        margin: auto;
         height: 90vh;
-        width: 100%;
+        width: 100vh;
     }
 
     .laranjinha {
@@ -510,9 +504,9 @@ ul li {
         padding: 0;
     }
     
-    body {
+    /* body {
         width: auto;
-    }    
+    }     */
 
     nav {
         width: 100%;
@@ -563,11 +557,11 @@ ul li {
     #ajuda {
         height: 70vh;
         background: #FB6C14;
-        width: 72vh;
+        width: 100vh;
     }
 
     .ajudar {
-        width: 100%;
+        width: 100vh;
         align-content: center;
         text-align: center;
         position: relative;
@@ -616,7 +610,7 @@ ul li {
 
     #danca {
         height: 60vh;
-        width: 72vh;
+        width: 100vh;
     }
 
     .laranjinha {
@@ -624,12 +618,12 @@ ul li {
         top: -30px;
         position: relative;
         /* height: 938px; */
-        width: 72vh;
+        width: 100vh;
         height: 60vh;
     }
 
     .dance {
-        top: -484px;
+        top: -551px;
         position: relative;
         width: 35vh;
         height: 50vh;
@@ -637,23 +631,23 @@ ul li {
 
     .horas {
         align-content: flex-end;
-        text-align: end;
-        font-size: 45px;
+        text-align: right;
+        font-size: 40px;
         top: -880px;
         position: relative;
         height: 30%;
-        max-width: 48%;
-        min-width: 20%;
-        left: 450px;
+        /* max-width: 48%; */
+        /* min-width: 20%; */
+        left: 130px;
         color: #450057;
         font-family: "Passion One", sans-serif;
         font-weight: 400;
         font-style: normal;
     }
 
+
     /*PAGINA 3 - PASSO A PASSO */
     #lista {
-        margin: auto;
         height: 50vh;
         text-decoration: none;
         width: 72vh;
@@ -699,7 +693,6 @@ ul li {
     /*PAGINA 4 -*/
 
     #fotos {
-        margin: auto;
         height: 45vh;
         text-decoration: none;
         width: 72vh;
@@ -722,7 +715,6 @@ ul li {
     /*PAGINA 5 -*/
 
     #fim {
-        margin: auto;
         height: 60vh;
         width: 72vh;
     }
@@ -764,4 +756,5 @@ ul li {
         width: 30%;
         top: 180px;
     }
+
 }

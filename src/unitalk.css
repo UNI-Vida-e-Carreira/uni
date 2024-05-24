@@ -211,6 +211,7 @@ ul a {
     align-content: center;
     text-align: center;
     position: relative;
+    top: 300px;
 }
 
 .links {
@@ -234,7 +235,18 @@ ul a {
     height: 80%;
     position: relative;
     display: flex;
-    left: 110px;
+    left: 80px;
+    top: -105px;
+}
+
+.ajuste2{
+    text-align: center;
+    width: 90%;
+    height: 80%;
+    position: relative;
+    display: flex;
+    left: 80px;
+    top: 70px;
 }
 
 .links2 {
